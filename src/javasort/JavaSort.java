@@ -48,6 +48,10 @@ public class JavaSort {
         sort(arr);
         System.out.println("The array sorted by category using Java built in sort is");
         ob.printArray(arr);
+        System.out.println("java's build in sorter is alot more efficient at sorting then the bubblesort");
+        System.out.println("both use big O notation of O(n^2), the smaller the data size the closer the sorters are ");
+        System.out.println("when you start to get into massive datasets, java sort effciny starts to show");
+
     }
 
 }
